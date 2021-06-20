@@ -1,11 +1,17 @@
 import React from 'react'
+import Jumbotron from 'react-bootstrap/Jumbotron'
 
 
 const Home=()=>{
         return (
-           <div>
-           <h1>Welcome To Walkology</h1>
-           </div>
+            <Jumbotron fluid>
+            <Container>
+              <h1>Welcome to Walkology</h1>
+              <p>
+              Let's go for a walk! 
+              </p>
+            </Container>
+          </Jumbotron>
            
         );
 }

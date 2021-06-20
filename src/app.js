@@ -5,9 +5,11 @@ const App = () => {
     return (
         <Router>
             <Switch>
+                <div>
                 <Route exact path = '/home'>
-                    <Home></Home>
+                    <Home/>
                 </Route>
+                </div>
             </Switch>
         </Router>
     )
